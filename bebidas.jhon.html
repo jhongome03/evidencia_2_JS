@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La buena taberna</title>
+  <link rel="stylesheet" href="bebidas.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <p>
+          <img 
+            alt="Cambiar imagen" 
+            height="400" 
+            style="max-width:100%;" 
+            onmouseout="this.src='https://www.radioacktiva.com/wp-content/uploads/2020/05/GettyImages-112295200.jpg';" 
+            onmouseover="this.src='https://th.bing.com/th/id/OIP.VXv_ICB4tT6XgTZ-8lmx-QHaEb?rs=1&pid=ImgDetMain';" 
+            src="imagen 1.webp" 
+          />
+        </p>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>Inicio</h1>
+      <p>Bienvenido a nuestra tienda de bebidas alcohólicas.</p>
+      <p>Disfruta de un ambiente cálido y acogedor, con iluminación tenue, música ambiental suave y una decoración que invita a la conversación y al disfrute.</p>
+      <p>Contamos con espacios diversos: un área de bar principal con mesas altas y taburetes para un ambiente más animado, mesas bajas para grupos más grandes y rincones acogedores para parejas o conversaciones más íntimas.</p>
+      <p>También tenemos una terraza o patio al aire libre para que puedas disfrutar del clima y del aire fresco, especialmente durante los meses cálidos.</p>
+    </section>
+
+    <section id="slider">
+      <div class="slider">
+        <img src="imagen 1.webp" alt="Imagen 1">
+        <img src="imagen3.jpg" alt="Imagen 2">
+        <img src="imagen 5.jpg" alt="Imagen 3">
+      </div>
+    </section>
+
+    <section id="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="productos-container">
+        <div class="producto">
+          <img src="vino.gif" alt="Vino">
+          <h3>Vinos Tintos</h3>
+          <ul>
+            <li>Casillero del Diablo Carmenere</li>
+            <li>Santa Rita 120 Cabernet Sauvignon</li>
+            <li>Juan Gil Monastrell Jumilla</li>
+            <li>Marqués de Riscal Reserva Rioja</li>
+          </ul>
+          <p>Descripción de los vinos.</p>
+          <p>Precio: $20.00</p>
+        </div>
+
+        <div class="producto">
+          <img src="wisky.gif" alt="Whisky">
+          <h3>Whisky</h3>
+          <ul>
+            <li>Johnnie Walker</li>
+            <li>Chivas Regal</li>
+            <li>Buchanan's</li>
+            <li>Ballantine's</li>
+            <li>Grant's</li>
+          </ul>
+          <p>Descripción del whisky.</p>
+          <p>Precio: $50.00</p>
+        </div>
+
+        <div class="producto">
+          <img src="1HyU.gif" alt="Cerveza">
+          <h3>Cerveza Artesanal</h3>
+          <ul>
+            <li>Águila</li>
+            <li>Poker</li>
+            <li>Club Colombia</li>
+            <li>Andina</li>
+            <li>Costeñita</li>
+            <li>3 Coronas</li>
+            <li>Cervecería Cordillera</li>
+            <li>Corona</li>
+            <li>Budweiser</li>
+            <li>Heineken</li>
+          </ul>
+          <p>Descripción de la cerveza artesanal.</p>
+          <p>Precio: $5.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Por favor, llena el siguiente formulario para contactarnos:</p>
+      <form action="mailto:gomezgonzalezjhonesteban@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="facebok.png" alt="Facebook" width="30" height="30">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="instagram-logo-.webp" alt="Instagram" width="30" height="30">
+      </a>
+      <a href="https://twitter.com/?lang=en" target="_blank">
+        <img src="X_imagen.avif" alt="Twitter" width="30" height="30">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
